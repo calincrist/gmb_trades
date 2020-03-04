@@ -10,11 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.navigationController?.title = "Products"
+        
+        ServiceLayer.request(router: .getRates) { (result: Result<[RateItem], Error>)  in
+            switch result {
+            case .success:
+                print(result)
+            case .failure:
+                print(result)
+            }
+        }
+        
+        ServiceLayer.request(router: .getTransactions) { (result: Result<[TransactionItem], Error>)  in
+            switch result {
+            case .success:
+                print(result)
+            case .failure:
+                print(result)
+            }
+        }
     }
-
-
 }
 

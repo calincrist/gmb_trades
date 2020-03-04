@@ -16,6 +16,11 @@
 		CAAA6DF42410518C00D242BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAA6DF22410518C00D242BB /* LaunchScreen.storyboard */; };
 		CAAA6DFF2410518C00D242BB /* Goliath_TradesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6DFE2410518C00D242BB /* Goliath_TradesTests.swift */; };
 		CAAA6E0A2410518C00D242BB /* Goliath_TradesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6E092410518C00D242BB /* Goliath_TradesUITests.swift */; };
+		CAAA6E192410536000D242BB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6E182410536000D242BB /* API.swift */; };
+		CAAA6E1B2410540000D242BB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6E1A241053FF00D242BB /* Service.swift */; };
+		CAAA6E1E2410551A00D242BB /* RateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6E1D2410551A00D242BB /* RateItem.swift */; };
+		CAAA6E202410558500D242BB /* TransactionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6E1F2410558500D242BB /* TransactionItem.swift */; };
+		CAAA6E22241055B300D242BB /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6E21241055B300D242BB /* ProductItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		CAAA6E052410518C00D242BB /* Goliath TradesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goliath TradesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAA6E092410518C00D242BB /* Goliath_TradesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goliath_TradesUITests.swift; sourceTree = "<group>"; };
 		CAAA6E0B2410518C00D242BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAA6E182410536000D242BB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CAAA6E1A241053FF00D242BB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CAAA6E1D2410551A00D242BB /* RateItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateItem.swift; sourceTree = "<group>"; };
+		CAAA6E1F2410558500D242BB /* TransactionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItem.swift; sourceTree = "<group>"; };
+		CAAA6E21241055B300D242BB /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,7 @@
 		CAAA6DE32410518900D242BB /* Goliath Trades */ = {
 			isa = PBXGroup;
 			children = (
+				CAAA6E172410532900D242BB /* Network */,
 				CAAA6DE42410518900D242BB /* AppDelegate.swift */,
 				CAAA6DE62410518900D242BB /* SceneDelegate.swift */,
 				CAAA6DE82410518900D242BB /* ViewController.swift */,
@@ -129,6 +140,26 @@
 				CAAA6E0B2410518C00D242BB /* Info.plist */,
 			);
 			path = "Goliath TradesUITests";
+			sourceTree = "<group>";
+		};
+		CAAA6E172410532900D242BB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CAAA6E1C2410550700D242BB /* Models */,
+				CAAA6E182410536000D242BB /* API.swift */,
+				CAAA6E1A241053FF00D242BB /* Service.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CAAA6E1C2410550700D242BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAAA6E1D2410551A00D242BB /* RateItem.swift */,
+				CAAA6E1F2410558500D242BB /* TransactionItem.swift */,
+				CAAA6E21241055B300D242BB /* ProductItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +296,12 @@
 				CAAA6DE92410518900D242BB /* ViewController.swift in Sources */,
 				CAAA6DEF2410518900D242BB /* Goliath_Trades.xcdatamodeld in Sources */,
 				CAAA6DE52410518900D242BB /* AppDelegate.swift in Sources */,
+				CAAA6E22241055B300D242BB /* ProductItem.swift in Sources */,
 				CAAA6DE72410518900D242BB /* SceneDelegate.swift in Sources */,
+				CAAA6E192410536000D242BB /* API.swift in Sources */,
+				CAAA6E202410558500D242BB /* TransactionItem.swift in Sources */,
+				CAAA6E1B2410540000D242BB /* Service.swift in Sources */,
+				CAAA6E1E2410551A00D242BB /* RateItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,13 +475,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8EGFFE222W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Goliath Trades/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.calincrist.Goliath-Trades";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calincrist.goliath-trades";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,13 +493,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8EGFFE222W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Goliath Trades/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.calincrist.Goliath-Trades";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calincrist.goliath-trades";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
