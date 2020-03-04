@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAAA6DE52410518900D242BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6DE42410518900D242BB /* AppDelegate.swift */; };
+		CAAA6DE72410518900D242BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6DE62410518900D242BB /* SceneDelegate.swift */; };
+		CAAA6DE92410518900D242BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6DE82410518900D242BB /* ViewController.swift */; };
+		CAAA6DEC2410518900D242BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAA6DEA2410518900D242BB /* Main.storyboard */; };
+		CAAA6DEF2410518900D242BB /* Goliath_Trades.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6DED2410518900D242BB /* Goliath_Trades.xcdatamodeld */; };
+		CAAA6DF12410518C00D242BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAAA6DF02410518C00D242BB /* Assets.xcassets */; };
+		CAAA6DF42410518C00D242BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAA6DF22410518C00D242BB /* LaunchScreen.storyboard */; };
+		CAAA6DFF2410518C00D242BB /* Goliath_TradesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6DFE2410518C00D242BB /* Goliath_TradesTests.swift */; };
+		CAAA6E0A2410518C00D242BB /* Goliath_TradesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA6E092410518C00D242BB /* Goliath_TradesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAAA6DFB2410518C00D242BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAAA6DD92410518900D242BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAAA6DE02410518900D242BB;
+			remoteInfo = "Goliath Trades";
+		};
+		CAAA6E062410518C00D242BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAAA6DD92410518900D242BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAAA6DE02410518900D242BB;
+			remoteInfo = "Goliath Trades";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAAA6DE12410518900D242BB /* Goliath Trades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goliath Trades.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAA6DE42410518900D242BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAAA6DE62410518900D242BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAAA6DE82410518900D242BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAAA6DEB2410518900D242BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAAA6DEE2410518900D242BB /* Goliath_Trades.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Goliath_Trades.xcdatamodel; sourceTree = "<group>"; };
+		CAAA6DF02410518C00D242BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAAA6DF32410518C00D242BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAAA6DF52410518C00D242BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAA6DFA2410518C00D242BB /* Goliath TradesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goliath TradesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAA6DFE2410518C00D242BB /* Goliath_TradesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goliath_TradesTests.swift; sourceTree = "<group>"; };
+		CAAA6E002410518C00D242BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAA6E052410518C00D242BB /* Goliath TradesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Goliath TradesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAA6E092410518C00D242BB /* Goliath_TradesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goliath_TradesUITests.swift; sourceTree = "<group>"; };
+		CAAA6E0B2410518C00D242BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAAA6DDE2410518900D242BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAA6DF72410518C00D242BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAA6E022410518C00D242BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAAA6DD82410518900D242BB = {
+			isa = PBXGroup;
+			children = (
+				CAAA6DE32410518900D242BB /* Goliath Trades */,
+				CAAA6DFD2410518C00D242BB /* Goliath TradesTests */,
+				CAAA6E082410518C00D242BB /* Goliath TradesUITests */,
+				CAAA6DE22410518900D242BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAAA6DE22410518900D242BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAAA6DE12410518900D242BB /* Goliath Trades.app */,
+				CAAA6DFA2410518C00D242BB /* Goliath TradesTests.xctest */,
+				CAAA6E052410518C00D242BB /* Goliath TradesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAAA6DE32410518900D242BB /* Goliath Trades */ = {
+			isa = PBXGroup;
+			children = (
+				CAAA6DE42410518900D242BB /* AppDelegate.swift */,
+				CAAA6DE62410518900D242BB /* SceneDelegate.swift */,
+				CAAA6DE82410518900D242BB /* ViewController.swift */,
+				CAAA6DEA2410518900D242BB /* Main.storyboard */,
+				CAAA6DF02410518C00D242BB /* Assets.xcassets */,
+				CAAA6DF22410518C00D242BB /* LaunchScreen.storyboard */,
+				CAAA6DF52410518C00D242BB /* Info.plist */,
+				CAAA6DED2410518900D242BB /* Goliath_Trades.xcdatamodeld */,
+			);
+			path = "Goliath Trades";
+			sourceTree = "<group>";
+		};
+		CAAA6DFD2410518C00D242BB /* Goliath TradesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAAA6DFE2410518C00D242BB /* Goliath_TradesTests.swift */,
+				CAAA6E002410518C00D242BB /* Info.plist */,
+			);
+			path = "Goliath TradesTests";
+			sourceTree = "<group>";
+		};
+		CAAA6E082410518C00D242BB /* Goliath TradesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAAA6E092410518C00D242BB /* Goliath_TradesUITests.swift */,
+				CAAA6E0B2410518C00D242BB /* Info.plist */,
+			);
+			path = "Goliath TradesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAAA6DE02410518900D242BB /* Goliath Trades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAA6E0E2410518C00D242BB /* Build configuration list for PBXNativeTarget "Goliath Trades" */;
+			buildPhases = (
+				CAAA6DDD2410518900D242BB /* Sources */,
+				CAAA6DDE2410518900D242BB /* Frameworks */,
+				CAAA6DDF2410518900D242BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Goliath Trades";
+			productName = "Goliath Trades";
+			productReference = CAAA6DE12410518900D242BB /* Goliath Trades.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAAA6DF92410518C00D242BB /* Goliath TradesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAA6E112410518D00D242BB /* Build configuration list for PBXNativeTarget "Goliath TradesTests" */;
+			buildPhases = (
+				CAAA6DF62410518C00D242BB /* Sources */,
+				CAAA6DF72410518C00D242BB /* Frameworks */,
+				CAAA6DF82410518C00D242BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAAA6DFC2410518C00D242BB /* PBXTargetDependency */,
+			);
+			name = "Goliath TradesTests";
+			productName = "Goliath TradesTests";
+			productReference = CAAA6DFA2410518C00D242BB /* Goliath TradesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAAA6E042410518C00D242BB /* Goliath TradesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAA6E142410518D00D242BB /* Build configuration list for PBXNativeTarget "Goliath TradesUITests" */;
+			buildPhases = (
+				CAAA6E012410518C00D242BB /* Sources */,
+				CAAA6E022410518C00D242BB /* Frameworks */,
+				CAAA6E032410518C00D242BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAAA6E072410518C00D242BB /* PBXTargetDependency */,
+			);
+			name = "Goliath TradesUITests";
+			productName = "Goliath TradesUITests";
+			productReference = CAAA6E052410518C00D242BB /* Goliath TradesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAAA6DD92410518900D242BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Calin Cristian Ciubotariu";
+				TargetAttributes = {
+					CAAA6DE02410518900D242BB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CAAA6DF92410518C00D242BB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CAAA6DE02410518900D242BB;
+					};
+					CAAA6E042410518C00D242BB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CAAA6DE02410518900D242BB;
+					};
+				};
+			};
+			buildConfigurationList = CAAA6DDC2410518900D242BB /* Build configuration list for PBXProject "Goliath Trades" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAAA6DD82410518900D242BB;
+			productRefGroup = CAAA6DE22410518900D242BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAAA6DE02410518900D242BB /* Goliath Trades */,
+				CAAA6DF92410518C00D242BB /* Goliath TradesTests */,
+				CAAA6E042410518C00D242BB /* Goliath TradesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAAA6DDF2410518900D242BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAA6DF42410518C00D242BB /* LaunchScreen.storyboard in Resources */,
+				CAAA6DF12410518C00D242BB /* Assets.xcassets in Resources */,
+				CAAA6DEC2410518900D242BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAA6DF82410518C00D242BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAA6E032410518C00D242BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAAA6DDD2410518900D242BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAA6DE92410518900D242BB /* ViewController.swift in Sources */,
+				CAAA6DEF2410518900D242BB /* Goliath_Trades.xcdatamodeld in Sources */,
+				CAAA6DE52410518900D242BB /* AppDelegate.swift in Sources */,
+				CAAA6DE72410518900D242BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAA6DF62410518C00D242BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAA6DFF2410518C00D242BB /* Goliath_TradesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAA6E012410518C00D242BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAA6E0A2410518C00D242BB /* Goliath_TradesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAAA6DFC2410518C00D242BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAAA6DE02410518900D242BB /* Goliath Trades */;
+			targetProxy = CAAA6DFB2410518C00D242BB /* PBXContainerItemProxy */;
+		};
+		CAAA6E072410518C00D242BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAAA6DE02410518900D242BB /* Goliath Trades */;
+			targetProxy = CAAA6E062410518C00D242BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAAA6DEA2410518900D242BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAA6DEB2410518900D242BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAAA6DF22410518C00D242BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAA6DF32410518C00D242BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAAA6E0C2410518C00D242BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAAA6E0D2410518C00D242BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAAA6E0F2410518C00D242BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8EGFFE222W;
+				INFOPLIST_FILE = "Goliath Trades/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calincrist.Goliath-Trades";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAAA6E102410518C00D242BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8EGFFE222W;
+				INFOPLIST_FILE = "Goliath Trades/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calincrist.Goliath-Trades";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAAA6E122410518D00D242BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8EGFFE222W;
+				INFOPLIST_FILE = "Goliath TradesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calincrist.Goliath-TradesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goliath Trades.app/Goliath Trades";
+			};
+			name = Debug;
+		};
+		CAAA6E132410518D00D242BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8EGFFE222W;
+				INFOPLIST_FILE = "Goliath TradesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calincrist.Goliath-TradesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goliath Trades.app/Goliath Trades";
+			};
+			name = Release;
+		};
+		CAAA6E152410518D00D242BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8EGFFE222W;
+				INFOPLIST_FILE = "Goliath TradesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calincrist.Goliath-TradesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Goliath Trades";
+			};
+			name = Debug;
+		};
+		CAAA6E162410518D00D242BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8EGFFE222W;
+				INFOPLIST_FILE = "Goliath TradesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calincrist.Goliath-TradesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Goliath Trades";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAAA6DDC2410518900D242BB /* Build configuration list for PBXProject "Goliath Trades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAA6E0C2410518C00D242BB /* Debug */,
+				CAAA6E0D2410518C00D242BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAAA6E0E2410518C00D242BB /* Build configuration list for PBXNativeTarget "Goliath Trades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAA6E0F2410518C00D242BB /* Debug */,
+				CAAA6E102410518C00D242BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAAA6E112410518D00D242BB /* Build configuration list for PBXNativeTarget "Goliath TradesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAA6E122410518D00D242BB /* Debug */,
+				CAAA6E132410518D00D242BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAAA6E142410518D00D242BB /* Build configuration list for PBXNativeTarget "Goliath TradesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAA6E152410518D00D242BB /* Debug */,
+				CAAA6E162410518D00D242BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CAAA6DED2410518900D242BB /* Goliath_Trades.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CAAA6DEE2410518900D242BB /* Goliath_Trades.xcdatamodel */,
+			);
+			currentVersion = CAAA6DEE2410518900D242BB /* Goliath_Trades.xcdatamodel */;
+			path = Goliath_Trades.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CAAA6DD92410518900D242BB /* Project object */;
+}
