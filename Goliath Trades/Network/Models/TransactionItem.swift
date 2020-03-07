@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct TransactionItem: Codable {
+class TransactionItem: Codable {
     let sku: String
     let amount: String
     let currency: String

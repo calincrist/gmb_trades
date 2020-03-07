@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct RateItem: Codable {
+class RateItem: Codable {
     let from: String
     let to: String
     let rate: String
