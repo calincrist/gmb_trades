@@ -23,7 +23,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rep-Ri-o3m">
-                        <rect key="frame" x="265.5" y="20" width="34.5" height="38"/>
+                        <rect key="frame" x="265.5" y="10" width="34.5" height="58"/>
                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -31,11 +31,11 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="UNT-qJ-HTb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="487-GS-KCA"/>
-                    <constraint firstAttribute="bottom" secondItem="rep-Ri-o3m" secondAttribute="bottom" constant="20" id="FqO-Jr-uoh"/>
+                    <constraint firstAttribute="bottom" secondItem="rep-Ri-o3m" secondAttribute="bottom" constant="10" id="FqO-Jr-uoh"/>
                     <constraint firstItem="UNT-qJ-HTb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Og2-Ah-NXc"/>
                     <constraint firstAttribute="bottom" secondItem="UNT-qJ-HTb" secondAttribute="bottom" constant="20" id="XRa-PX-Lay"/>
                     <constraint firstAttribute="trailing" secondItem="rep-Ri-o3m" secondAttribute="trailing" constant="20" id="YjP-ZR-xgJ"/>
-                    <constraint firstItem="rep-Ri-o3m" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="qNU-1o-nty"/>
+                    <constraint firstItem="rep-Ri-o3m" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="qNU-1o-nty"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

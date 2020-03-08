@@ -19,23 +19,21 @@ class ViewController: UIViewController {
         
         self.navigationController?.title = "Products"
         
-//        ServiceLayer.request(router: .getRates) { (result: Result<[RateItem], Error>)  in
-//            switch result {
-//            case .success:
-//                print(result)
-//            case .failure:
-//                print(result)
-//            }
-//        }
-        
         self.tableView.dataSource = self
         self.tableView.delegate = self
         
-        viewModel.fetchTransactions {
-            print("here!!")
+        viewModel.fetchData {
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        DispatchQueue.main.async {
             self.tableView.reloadData()
         }
-        
     }
 }
 
@@ -51,7 +49,7 @@ extension ViewController: UITableViewDataSource {
         let product = viewModel.products[indexPath.row]
         
         cell.textLabel?.text = product.sku
-        cell.detailTextLabel?.text = "Total: \(product.sumEUR!) EUR from \(product.transactions!.count) transactions"
+        cell.detailTextLabel?.text = "Total: \(product.sumEUR.amount) EUR from \(product.transactions!.count) transactions"
         
         return cell
     }

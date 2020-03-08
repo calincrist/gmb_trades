@@ -20,7 +20,7 @@ class ProductDetailsViewController: UIViewController {
         super.viewDidLoad()
 
         navigationItem.title = product.sku
-        titleLabel.text = "Total amount: \(product.sumEUR!) EUR"
+        titleLabel.text = "Total amount: \(product.sumEUR.amount) EUR"
         
         tableView.register(TransactionTableViewCell.self, forCellReuseIdentifier: "transactionCell")
         tableView.register(UINib(nibName: "TransactionTableViewCell", bundle: nil), forCellReuseIdentifier: "transactionCell")
@@ -39,8 +39,8 @@ extension ProductDetailsViewController: UITableViewDataSource {
         
         let transaction: TransactionItem = (product.transactions?[indexPath.row])!
         
-        cell.priceLabel.text = transaction.amount
-        cell.currencyLabel.text = transaction.currency
+        cell.priceLabel.text = "\(transaction.money.amountIn(currency: .EUR))"
+        cell.currencyLabel.text = transaction.money.description
         
         return cell
     }

@@ -26,6 +26,7 @@
 		CAE655FE24141681009A5D2E /* ProductDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE655FC24141681009A5D2E /* ProductDetailsViewController.xib */; };
 		CAE6560224142511009A5D2E /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE6560024142511009A5D2E /* TransactionTableViewCell.swift */; };
 		CAE6560324142511009A5D2E /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE6560124142511009A5D2E /* TransactionTableViewCell.xib */; };
+		CAE6560524151AF6009A5D2E /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE6560424151AF6009A5D2E /* Money.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		CAE655FC24141681009A5D2E /* ProductDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailsViewController.xib; sourceTree = "<group>"; };
 		CAE6560024142511009A5D2E /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
 		CAE6560124142511009A5D2E /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
+		CAE6560424151AF6009A5D2E /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				CAAA6E1D2410551A00D242BB /* RateItem.swift */,
 				CAAA6E1F2410558500D242BB /* TransactionItem.swift */,
 				CAAA6E21241055B300D242BB /* Product.swift */,
+				CAE6560424151AF6009A5D2E /* Money.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				CAAA6DE92410518900D242BB /* ViewController.swift in Sources */,
 				CAE655F9241402C7009A5D2E /* TransactionsViewModel.swift in Sources */,
 				CAE655FD24141681009A5D2E /* ProductDetailsViewController.swift in Sources */,
+				CAE6560524151AF6009A5D2E /* Money.swift in Sources */,
 				CAAA6DEF2410518900D242BB /* Goliath_Trades.xcdatamodeld in Sources */,
 				CAAA6DE52410518900D242BB /* AppDelegate.swift in Sources */,
 				CAAA6E22241055B300D242BB /* Product.swift in Sources */,

@@ -20,13 +20,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ikj-xj-IDJ">
-                    <rect key="frame" x="0.0" y="125" width="414" height="737"/>
+                    <rect key="frame" x="0.0" y="117.5" width="414" height="744.5"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                 </tableView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total amount: 14,99 EUR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEO-kv-dck">
-                    <rect key="frame" x="0.0" y="64" width="414" height="41"/>
-                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                    <nil key="textColor"/>
+                    <rect key="frame" x="20" y="64" width="374" height="33.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
@@ -34,10 +34,10 @@
             <constraints>
                 <constraint firstItem="ikj-xj-IDJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Iq0-2c-2Yp"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ikj-xj-IDJ" secondAttribute="trailing" id="QcC-nP-O8U"/>
-                <constraint firstItem="tEO-kv-dck" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="UrP-g5-PXg"/>
+                <constraint firstItem="tEO-kv-dck" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="UrP-g5-PXg"/>
                 <constraint firstItem="ikj-xj-IDJ" firstAttribute="top" secondItem="tEO-kv-dck" secondAttribute="bottom" constant="20" id="lEZ-qY-hSf"/>
                 <constraint firstItem="tEO-kv-dck" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="njs-dK-skN"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tEO-kv-dck" secondAttribute="trailing" id="w6t-DX-6dg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tEO-kv-dck" secondAttribute="trailing" constant="20" id="w6t-DX-6dg"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ikj-xj-IDJ" secondAttribute="bottom" id="wOP-NW-0c8"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
